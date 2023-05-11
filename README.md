@@ -16,7 +16,9 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 >Here you can also define whether you want your bot to be Public (only you can add it to channels) or public.
 
-4.) Under the Token option, copy your token to somewhere safe. Don't share this with anybody you don't trust, as it gives full access to your bot.
+4.) Under 'Privellaged Gateway Intents', make sure that 'Message Content Intent' is turned on. This lets your bot read the chat for context.
+
+5.) Under the Token option, copy your token to somewhere safe. Don't share this with anybody you don't trust, as it gives full access to your bot.
 
 ### Invite your Bot
 
@@ -26,11 +28,9 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 3.) Under 'Bot Permissions', select the following options:
 
-> Read Messages/View Channels +
-> Send Messages +
-> Read Message History
+> Read Messages/View Channels + Send Messages + Read Message History
 
-4.) Then hit 'copy' to get the URL which can be used to add the bot to a server you have permission to manage (just paste it into your browser and select the server).
+4.) Then, hit 'copy' to get the URL which can be used to add the bot to a server you have permission to manage (just paste it into your browser and select the server).
 
 **Once you've made your bot with discord and you've copied your bot's secure token, continue to either building your bot with NodeJS or Docker.**
 
