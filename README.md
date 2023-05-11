@@ -1,4 +1,4 @@
-# DiscordGPT (Test)
+# DiscordGPT
 
 An Discord bot backend utilising the OpenAI API (Specifically 3.5-Turbo) to give your bot the ability to talk like ChatGPT. Build via NodeJS or Docker.
 
