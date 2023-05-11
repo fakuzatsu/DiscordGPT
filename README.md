@@ -2,7 +2,7 @@
 
 An Discord bot backend utilising the OpenAI API (Specifically 3.5-Turbo) to give your bot the ability to talk like ChatGPT. Build via NodeJS or Docker.
 
-## Make your Bot
+## Make your Discord Bot Account
 
 Include the instructions on how to make the bot.
 
