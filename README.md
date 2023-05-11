@@ -8,10 +8,13 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 1.) Log into the Discord developer portal at https://discord.com/developers/applications 
 
-2.) Hit 'New Application' and give your bot a name. **This is the name your bot will respond to in Discord so make it something unique but easy to type.**
+2.) Hit 'New Application' and give your bot a name. 
+
+>**This is the name your bot will respond to in Discord so make it something unique but easy to type.**
 
 3.) Navigate to the 'Bot' tab in your new application and hit 'Add Bot'. Then confirm.
-*Here you can also define whether you want your bot to be Public (only you can add it to channels) or public.*
+
+>Here you can also define whether you want your bot to be Public (only you can add it to channels) or public.
 
 4.) Under the Token option, copy your token. Don't share this with anybody you don't trust, as it gives full access to your bot.
 
@@ -23,8 +26,8 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 3.) Under 'Bot Permissions', select the following options:
 
-> Read Messages/View Channels
-> Send Messages
+> Read Messages/View Channels +
+> Send Messages +
 > Read Message History
 
 4.) Then hit 'copy' to get the URL which can be used to add the bot to a server you have permission to manage (just paste it into your browser and select the server).
