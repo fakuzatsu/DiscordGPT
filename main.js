@@ -57,12 +57,16 @@ async function sendGPTRequest(message, client, conversationLog, messageLimit = 1
         console.log(`OPENAI ERR: ${error}`);
       });
 
-    // Return the response as part of the async function.
+    // Turn the response into a string.
     const response = result.data.choices[0].message;
     const responseAsString = response['content'].toString();
-    const name = client.user.username;
+
+    // Check if the bot started it's sentence like "Bot:" and trims it off if so.
+    const name = client.user.username; 
     const namePattern = new RegExp (`^${name}:`);
     const finalResponse = responseAsString.replace(namePattern, '').trim();
+
+    // Returns the final response.
     return finalResponse;
   } catch (error) {
     console.log(`ERR: ${error}`);
