@@ -10,13 +10,13 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 2.) Hit 'New Application' and give your bot a name. 
 
->**This is the name your bot will respond to in Discord so make it something unique but easy to type.**
+>**! This is the name your bot will respond to in Discord so make it something unique but easy to type. !**
 
 3.) Navigate to the 'Bot' tab in your new application and hit 'Add Bot'. Then confirm.
 
 >Here you can also define whether you want your bot to be Public (only you can add it to channels) or public.
 
-4.) Under the Token option, copy your token. Don't share this with anybody you don't trust, as it gives full access to your bot.
+4.) Under the Token option, copy your token to somewhere safe. Don't share this with anybody you don't trust, as it gives full access to your bot.
 
 ### Invite your Bot
 
@@ -32,8 +32,7 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 4.) Then hit 'copy' to get the URL which can be used to add the bot to a server you have permission to manage (just paste it into your browser and select the server).
 
-
-Once you've made your bot with discord and you've copied your bot's secure token, continue to either building your bot with NodeJS or Docker.
+**Once you've made your bot with discord and you've copied your bot's secure token, continue to either building your bot with NodeJS or Docker.**
 
 ## Build with NodeJS
 
