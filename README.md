@@ -2,6 +2,20 @@
 
 An Discord bot backend utilising the OpenAI API (Specifically 3.5-Turbo) to give your bot the ability to talk like ChatGPT. Build via NodeJS or Docker.
 
+# Features
+
+![Bot Showcase1](https://i.postimg.cc/nzBJQgQs/Screenshot-2023-05-14-at-20-03-43.png)
+
+By utilising the OpenAI 3.5-Turbo API, DiscordGPT provides an experience similar to using ChatGPT, but right in your Discord server. DiscordGPT recognises the name of the bot you connect it to, and will respond to it's name when it hears it in chat. 
+
+When DiscordGPT responds, it reads the last 15 messages of the chat in order to understand the context of the conversation and respond fluidly. It even knows who said each line, so it can sumarise long threads and contribute as asked.
+
+DiscordGPT responses have been limited to a strict character value in order to stay within the Discord character limit, and prevent the bot from using more credits than necessary.
+
+![Bot Showcase2](https://i.postimg.cc/15WL4sYC/Screenshot-2023-05-14-at-20-08-28.png)
+
+# Setup
+
 ## Make your Discord Bot Account
 
 To get your code connected to Discord you'll need to make a bot account to run it. You can follow these steps to make your bot:
