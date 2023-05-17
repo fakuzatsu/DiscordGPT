@@ -77,7 +77,7 @@ You can use this code to build your bot with NodeJS via a few methods. The easie
 
  - You will have to add the following to your .env file using your favourite text editor:
 
- - ```
+ ```
  GPT= #Your OpenAI API token
  DISC= #Your Discord API token
  ```
