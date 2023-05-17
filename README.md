@@ -57,23 +57,33 @@ You can use this code to build your bot with NodeJS via a few methods. The easie
 
 1.) Install Node and NPM:
 
-`curl -fsSL https://deb.nodesource.com/setup_18.x && apt-get install -y nodejs`
+```
+curl -fsSL https://deb.nodesource.com/setup_18.x && apt-get install -y nodejs
+```
 
 2.) Create the directory for your code:
 
-`mkdir DiscordGPT && cd DiscordGPT`
+```
+mkdir DiscordGPT && cd DiscordGPT
+```
 
 4.) Clone the repository with the git clone command:
 
-`git clone https://github.com/fakuzatsu/DiscordGPT .`
+```
+git clone https://github.com/fakuzatsu/DiscordGPT .
+```
 
 4.) Install the dependencies with NPM:
 
-`npm install`
+```
+npm install
+```
 
 5.) Create a .env file for your API keys:
 
-`touch .env`
+```
+touch .env
+```
 
  - You will have to add the following to your .env file using your favourite text editor:
 
@@ -88,7 +98,9 @@ You can use this code to build your bot with NodeJS via a few methods. The easie
 
 6.) Initialise your bot with NodeJS:
 
-`node main.js`
+```
+node main.js
+```
 
 > Note that this will only run the bot as long as the terminal session remains. To initialise your bot to run permanently in the background, you can use an npm package such as `forever`.
 
