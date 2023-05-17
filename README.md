@@ -85,7 +85,7 @@ npm install
 touch .env
 ```
 
- - You will have to add the following to your .env file using your favourite text editor (such as):
+ - You will have to add the following to your .env file using your favourite text editor (such as `nano`):
 
 ```
 DISC= #Your Discord API token
