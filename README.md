@@ -75,14 +75,16 @@ You can use this code to build your bot with NodeJS via a few methods. The easie
 
 `touch .env`
 
-You will have to add the following to your .env file using your favourite text editor:
+ - You will have to add the following to your .env file using your favourite text editor:
 
-`GPT= #Your OpenAI API token`
-`DISC= #Your Discord API token`
+ - ```
+ GPT= #Your OpenAI API token
+ DISC= #Your Discord API token
+ ```
 
-You copied your Discord API token to a safe location as part of the setup to make your bot account previous.
+ - You copied your Discord API token to a safe location as part of the setup to make your bot account previous.
 
-You will need your OpenAI API token from https://platform.openai.com
+ - You will need your OpenAI API token from https://platform.openai.com
 
 6.) Initialise your bot with NodeJS:
 
