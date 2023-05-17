@@ -9,9 +9,9 @@ An Discord bot backend utilising the OpenAI API (Specifically 3.5-Turbo) to give
 
 ![Bot Showcase1](https://i.postimg.cc/nzBJQgQs/Screenshot-2023-05-14-at-20-03-43.png)
 
-By utilising the OpenAI 3.5-Turbo API, DiscordGPT provides an experience similar to using ChatGPT, but right in your Discord server. DiscordGPT recognises the name of the bot you connect it to, and will respond to it's name when it hears it in chat. 
+By utilising the OpenAI 3.5-Turbo API, DiscordGPT provides an experience similar to using ChatGPT, but right in your Discord server. DiscordGPT recognises the name of the bot you connect it to, and will **respond to it's name when it hears it in chat**. 
 
-When DiscordGPT responds, it reads the last 15 messages of the chat in order to understand the context of the conversation and respond fluidly. It even knows who said each line, so it can sumarise long threads and contribute as asked.
+When DiscordGPT responds, it reads the last 15 messages of the chat in order to **understand the context of the conversation and respond fluidly**. It even **knows who said each line**, so it can sumarise long threads and contribute as asked.
 
 DiscordGPT responses have been limited to a strict character value in order to stay within the Discord character limit, and prevent the bot from using more credits than necessary.
 
