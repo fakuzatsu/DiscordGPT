@@ -53,12 +53,43 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 ## Build with NodeJS
 
-Include instructions on how to run the bot backend via NodeJS (Mentioning Replit)
+You can use this code to build your bot with NodeJS via a few methods. The easiest of which is running it locally. To run your bot locally on Linux:
+
+1.) Install Node and NPM:
+
+`curl -fsSL https://deb.nodesource.com/setup_18.x && apt-get install -y nodejs`
+
+2.) Create the directory for your code:
+
+`mkdir DiscordGPT && cd DiscordGPT`
+
+4.) Clone the repository with the git clone command:
+
+`git clone https://github.com/fakuzatsu/DiscordGPT .`
+
+4.) Install the dependencies with NPM:
+
+`npm install`
+
+5.) Create a .env file for your API keys:
+
+`touch .env`
+
+You will have to add the following to your .env file using your favourite text editor:
+
+`GPT= #Your OpenAI API token`
+`DISC= #Your Discord API token`
+
+You copied your Discord API token to a safe location as part of the setup to make your bot account previous.
 
 You will need your OpenAI API token from https://platform.openai.com
+
+6.) Initialise your bot with NodeJS:
+
+`node main.js`
+
+> Note that this will only run the bot as long as the terminal session remains. To initialise your bot to run permanently in the background, you can use an npm package such as `forever`.
 
 ## Build with Docker
 
-Include instructions on how to run the bot backend via Docker (I need to make the Docker Image first)
-
-You will need your OpenAI API token from https://platform.openai.com
+The dockerfiles are still being built. For now you can only build your bot using NodeJS.
