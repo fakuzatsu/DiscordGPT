@@ -1,5 +1,8 @@
 # DiscordGPT
 
+[![](https://img.shields.io/badge/discord.js-v14.9.0-blue.svg?logo=npm)](https://github.com/discordjs)
+[![](https://img.shields.io/badge/openai-v3.2.1-orange)](https://github.com/openai/openai-node)
+
 An Discord bot backend utilising the OpenAI API (Specifically 3.5-Turbo) to give your bot the ability to talk like ChatGPT. Build via NodeJS or Docker.
 
 # Features
