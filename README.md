@@ -23,31 +23,31 @@ DiscordGPT responses have been limited to a strict character value in order to s
 
 To get your code connected to Discord you'll need to make a bot account to run it. You can follow these steps to make your bot:
 
-1.) Log into the Discord developer portal at https://discord.com/developers/applications 
+**1.)** Log into the Discord developer portal at https://discord.com/developers/applications 
 
-2.) Hit 'New Application' and give your bot a name. 
+**2.)** Hit 'New Application' and give your bot a name. 
 
 >**! This is the name your bot will respond to in Discord so make it something unique but easy to type. !**
 
-3.) Navigate to the 'Bot' tab in your new application and hit 'Add Bot'. Then confirm.
+**3.)** Navigate to the 'Bot' tab in your new application and hit 'Add Bot'. Then confirm.
 
 >Here you can also define whether you want your bot to be Public (only you can add it to channels) or public.
 
-4.) Under 'Privellaged Gateway Intents', make sure that 'Message Content Intent' is turned on. This lets your bot read the chat for context.
+**4.)** Under 'Privellaged Gateway Intents', make sure that 'Message Content Intent' is turned on. This lets your bot read the chat for context.
 
-5.) Under the Token option, copy your token to somewhere safe. Don't share this with anybody you don't trust, as it gives full access to your bot.
+**5.)** Under the Token option, copy your token to somewhere safe. Don't share this with anybody you don't trust, as it gives full access to your bot.
 
 ### Invite your Bot
 
-1.) Still in the Discord developer portal within your application, select the 'OAuth2' tab.
+**1.)** Still in the Discord developer portal within your application, select the 'OAuth2' tab.
 
-2.) Under 'Scopes', select 'Bot'.
+**2.)** Under 'Scopes', select 'Bot'.
 
-3.) Under 'Bot Permissions', select the following options:
+**3.)** Under 'Bot Permissions', select the following options:
 
 > Read Messages/View Channels + Send Messages + Read Message History
 
-4.) Then, hit 'copy' to get the URL which can be used to add the bot to a server you have permission to manage (just paste it into your browser and select the server).
+**4.)** Then, hit 'copy' to get the URL which can be used to add the bot to a server you have permission to manage (just paste it into your browser and select the server).
 
 **Once you've made your bot with discord and you've copied your bot's secure token, continue to either building your bot with NodeJS or Docker.**
 
@@ -55,31 +55,31 @@ To get your code connected to Discord you'll need to make a bot account to run i
 
 You can use this code to build your bot with NodeJS via a few methods. The easiest of which is running it locally. To run your bot locally on Linux:
 
-1.) Install Node and NPM:
+**1.)** Install Node and NPM:
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_18.x && apt-get install -y nodejs
 ```
 
-2.) Create the directory for your code:
+**2.)** Create the directory for your code:
 
 ```
 mkdir DiscordGPT && cd DiscordGPT
 ```
 
-4.) Clone the repository with the git clone command:
+**3.)** Clone the repository with the git clone command:
 
 ```
 git clone https://github.com/fakuzatsu/DiscordGPT .
 ```
 
-4.) Install the dependencies with NPM:
+**4.)** Install the dependencies with NPM:
 
 ```
 npm install
 ```
 
-5.) Create a .env file for your API keys:
+**5.)** Create a .env file for your API keys:
 
 ```
 touch .env
@@ -96,7 +96,7 @@ touch .env
 
  - You will need your OpenAI API token from https://platform.openai.com
 
-6.) Initialise your bot with NodeJS:
+**6.)** Initialise your bot with NodeJS:
 
 ```
 node main.js
