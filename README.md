@@ -106,4 +106,34 @@ node main.js
 
 ## Build with Docker
 
-The dockerfiles are still being built. For now you can only build your bot using NodeJS.
+Ensure you have the most recent version of docker installed, [click here for more info](https://docs.docker.com/engine/install/ubuntu/). Then:
+
+### docker-compose
+
+```yaml
+---
+version: "3.8"
+services:
+  discordgpt:
+    image: fakuzatsu/discordgpt:latest
+    container_name: discordgpt
+    environment:
+      - DISC= #Put your Discord bot's API code here. We saved it earlier.
+      - GPT= #Put your OpenAI API code here. You can get it from: https://platform.openai.com
+      - TZ=Europe/London
+    restart: unless-stopped
+```
+
+### docker cli
+
+```bash
+docker run -d \
+  --name=discordgpt \
+  -e DISC= `#Put your Discord bot's API code here. We saved it earlier.` \
+  -e GPT= `#Put your OpenAI API code here. You can get it from: https://platform.openai.com` \
+  -e TZ=Europe/London \
+  --restart unless-stopped \
+  fakuzatsu/discordgpt:latest
+
+```
+
